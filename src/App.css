@@ -1,0 +1,112 @@
+.App {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  font-size: 14px;
+  background-color: #262626;
+  color: white;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  font-size: 45px;
+  color: lightseagreen;
+}
+
+.song {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid #4D4D4D 1px;
+}
+
+.title,.artist {
+  width: 25%;
+  text-align: left;
+}
+
+.label{
+  font-weight: bolder;
+  color: #BBBBBB;
+}
+
+.destroy{
+  margin-left: 10px;
+}
+
+.destroy:hover,.destroy:active {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+input {
+  border-radius: 0 ;
+  border: none;
+}
+
+button {
+  margin:auto;
+  border: solid lightseagreen 2px;
+  background-color: #262626;
+  color: lightseagreen;
+  font-weight: bold;
+  width: 120px;
+  margin-top: 10px;
+  
+}
+
+button:hover {
+  background-color: lightseagreen;
+  color: #262626;
+  font-weight: bold;
+}
+
+button:active{
+  background-color: rgb(27, 147, 141);
+  color: #262626;
+  font-weight: bold;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-song {
+  margin-top: 100px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+input {
+  margin: 5px;
+  margin-right: 25px;
+  height: 25px;
+  width: 75%;
+
+}
+
+.playlist {
+  margin-bottom: 30px;
+}
