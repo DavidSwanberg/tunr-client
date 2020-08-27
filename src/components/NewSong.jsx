@@ -17,12 +17,13 @@ const NewSong = props => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         console.log("handleSubmit");
-        await axios({
+        let res = await axios({
           url: apiUrl,
           method: "POST",
           data: input,
         })
-        console.log('input', input)
+        console.log('input', input);
+        console.log('res',res);
         props.makeAPICall()
       };
 
